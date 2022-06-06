@@ -29,12 +29,6 @@ footer {
     margin: 20px 0 0;
 }
 
-.input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-}
-
 label {
     color: #FFFF;
     font-size: 18px;
@@ -42,7 +36,35 @@ label {
     text-align: center;
 }
 
-form {
+form,
+.input-padrao {
     display: flex;
     justify-content: center;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+textarea {
+    font-size: 14px;
+}
+
+.enviar {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 15px 0;
+    text-align: center;
+    transition: 1s all;
+    width: 40%;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
 }
