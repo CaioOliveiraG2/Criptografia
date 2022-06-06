@@ -1,0 +1,48 @@
+header {
+    background: url("bg.jpg");
+    padding: 20px 0;
+}
+
+body {
+    background-color: darkred;
+}
+
+.logo {
+    margin: 0 auto;
+    position: relative;
+    width: 10%;
+}
+
+footer {
+    background: url('bg1.jpg');
+    text-align: center;
+    padding: 40px 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.copyrigth {
+    color: #FFFF;
+    font-size: 14px;
+    margin: 20px 0 0;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+label {
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
