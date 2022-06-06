@@ -68,3 +68,7 @@ textarea {
     background-color: darkorange;
     transform: scale(1.2);
 }
+
+#mensagem-criptografada{
+    margin-bottom: 80px;
+}
